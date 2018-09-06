@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>My Side Projects</title>
-
+	
 	<meta name="author" content="Isabel García">
 
 	<!-- Enable responsive viewport -->
@@ -15,10 +15,10 @@
 	<![endif]-->
 
 	<!-- Le styles -->
-	<link href="assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<link href="assets/resources/syntax/syntax.css" rel="stylesheet">
-	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="/blog/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/blog/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/blog/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/blog/assets/css/style.css" rel="stylesheet">
 
 	<!-- Le fav and touch icons -->
 	<!-- Update these with your own images
@@ -28,7 +28,7 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 	-->
 
-	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+	<link rel="alternate" type="application/rss+xml" title="" href="/blog/feed.xml">
 </head>
 
 <body>
@@ -41,23 +41,23 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-
+			
 			<a type="button" class="navbar-toggle nav-link" href="http://github.com/isabel22">
 				<i class="fa fa-github"></i>
 			</a>
-
-
+			
+			
 			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/bel22">
 				<i class="fa fa-twitter"></i>
 			</a>
-
-
+			
+			
 			<a type="button" class="navbar-toggle nav-link" href="mailto:isabelgg22@gmail.com">
 				<i class="fa fa-envelope"></i>
 			</a>
-
-			<a class="navbar-brand" href="/">
-				<img src="http://www.gravatar.com/avatar/06063cca981b089ae27ecc67bfec7c52?s=35" class="img-circle" />
+			
+			<a class="navbar-brand" href="/blog/">
+				<img src="//www.gravatar.com/avatar/06063cca981b089ae27ecc67bfec7c52?s=35" class="img-circle" />
 				Isabel García
 			</a>
 		</div>
@@ -65,9 +65,9 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="/">Home</a></li>
-				<li><a href="/categories.html">Categories</a></li>
-				<li><a href="/tags.html">Tags</a></li>
+				<li class="active"><a href="/blog/">Home</a></li>
+				<li><a href="/blog/categories.html">Categories</a></li>
+				<li><a href="/blog/tags.html">Tags</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</nav>
@@ -78,9 +78,9 @@
 			<i class="fa fa-bars"></i>
 		</button>
 		<ul class="dropdown-menu" role="menu">
-			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
-			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
-			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li><a href="/blog/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/blog/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/blog/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
 			<li class="divider"></li>
 			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
 		</ul>
@@ -89,11 +89,11 @@
 	<div class="col-sm-3 sidebar hidden-xs" style="">
 		<!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
-	<a href="/">
-		<img src="http://www.gravatar.com/avatar/06063cca981b089ae27ecc67bfec7c52?s=150" class="img-circle" />
+	<a href="/blog/">
+		<img src="//www.gravatar.com/avatar/06063cca981b089ae27ecc67bfec7c52?s=150" class="img-circle" />
 	</a>
 	<h3 class="title">
-        <a href="/">Isabel García</a>
+        <a href="/blog/">Isabel García</a>
     </h3>
 </header>
 
@@ -105,30 +105,30 @@
 
 <div id="contact-list" class="text-center">
 	<ul class="list-unstyled list-inline">
-
+		
 		<li>
 			<a class="btn btn-default btn-sm" href="https://github.com/isabel22">
 				<i class="fa fa-github-alt fa-lg"></i>
 			</a>
 		</li>
-
-
+		
+		
 		<li>
 			<a class="btn btn-default btn-sm" href="https://twitter.com/bel22">
 				<i class="fa fa-twitter fa-lg"></i>
 			</a>
 		</li>
-
-
+		
+		
 		<li>
 			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/isabel22">
 				<i class="fa fa-linkedin fa-lg"></i>
 			</a>
 		</li>
-
+		
 	</ul>
 	<ul id="contact-list-secondary" class="list-unstyled list-inline">
-
+		
 	</ul>
 </div>
 <!-- sidebar.html end -->
@@ -145,29 +145,29 @@
 <article class="home">
 
   <span class="post-date">
-
+    
     August
     18th,
-
+    
     2018
   </span>
 
   <h2>
-    <a href="/programming/2018/08/18/numbers-generator.html">Numbers Generator</a>
+    <a href="/blog/programming/2018/08/18/numbers-generator.html">Numbers Generator</a>
   </h2>
 
   <div>
-
-
+    
+      
         Sometimes we need a service that generates all the numbers from 1 to N... So, this web service returns all the numbers from 1 to the user's choice as a JSON array. It also has a client where you test it or use it to generate these numbers.<br><br>
 
-        <a href="/programming/2018/08/18/numbers-generator.html"> [read more]</a><br><br>
+        <a href="/blog/programming/2018/08/18/numbers-generator.html"> [read more]</a><br><br>
+      
 
-
-
-        <img src="assets/media/numbers.png">
-
-
+      
+        <img src="/blog/assets/media/numbers.png">
+      
+    
   </div>
 
 </article>
@@ -176,29 +176,29 @@
 <article class="home">
 
   <span class="post-date">
-
+    
     August
     14th,
-
+    
     2018
   </span>
 
   <h2>
-    <a href="/programming/social/project/2018/08/14/animal-adoptions.html">Animal Adoptions</a>
+    <a href="/blog/programming/social/project/2018/08/14/animal-adoptions.html">Animal Adoptions</a>
   </h2>
 
   <div>
-
-
+    
+      
         Animal Adoptions is a service that will be provided to animal shelters. It will allow them to promote the animals that are ready to be adopted and make an easier process for the adoption.<br><br>
 
-        <a href="/programming/social/project/2018/08/14/animal-adoptions.html"> [read more]</a><br><br>
+        <a href="/blog/programming/social/project/2018/08/14/animal-adoptions.html"> [read more]</a><br><br>
+      
 
-
-
-        <img src="assets/media/animal-adoptions.png">
-
-
+      
+        <img src="/blog/assets/media/animal-adoptions.png">
+      
+    
   </div>
 
 </article>
@@ -207,31 +207,31 @@
 <article class="home">
 
   <span class="post-date">
-
+    
     July
     24th,
-
+    
     2017
   </span>
 
   <h2>
-    <a href="/programming/project/2017/07/24/dunnotap.html">Dunnotap</a>
+    <a href="/blog/programming/project/2017/07/24/dunnotap.html">Dunnotap</a>
   </h2>
 
   <div>
-
-
+    
+      
         DunnoTap is a board game based on the Whac-A-Mole game. DunnoTap's board has nine wooden boxes. Each box will rotate one at a time; when a box rotates, it can show you one of these icons:<br>
 - Golden bar (will give you points when you tap over it)<br>
 - Axe (will get you points out when you tap over it)<br><br>
 
-        <a href="/programming/project/2017/07/24/dunnotap.html"> [read more]</a><br><br>
+        <a href="/blog/programming/project/2017/07/24/dunnotap.html"> [read more]</a><br><br>
+      
 
-
-
-        <img src="assets/media/dunno-game.png">
-
-
+      
+        <img src="/blog/assets/media/dunno-game.png">
+      
+    
   </div>
 
 </article>
@@ -240,29 +240,29 @@
 <article class="home">
 
   <span class="post-date">
-
+    
     January
     15th,
-
+    
     2017
   </span>
 
   <h2>
-    <a href="/programming/project/2017/01/15/swift-certification.html">Swift Certification</a>
+    <a href="/blog/programming/project/2017/01/15/swift-certification.html">Swift Certification</a>
   </h2>
 
   <div>
-
-
+    
+      
         At the end of the courses, I completed the certification with a project where I allowed the user to choose between several options that they could use as a mask over their faces.<br><br>
 
-        <a href="/programming/project/2017/01/15/swift-certification.html"> [read more]</a><br><br>
+        <a href="/blog/programming/project/2017/01/15/swift-certification.html"> [read more]</a><br><br>
+      
 
-
-
-        <img src="assets/media/face-mask.jpg">
-
-
+      
+        <img src="/blog/assets/media/face-mask.jpg">
+      
+    
   </div>
 
 </article>
@@ -271,21 +271,21 @@
 
 <ul class="pager">
 
-
+  
   <li class="previous disabled">
     <a>&larr; Newer</a>
   </li>
-
+  
 
   <li>
     <span class="page_number">Page: 1 of 1</span>
   </li>
 
-
+  
   <li class="next disabled">
     <a>Older &rarr;</a>
   </li>
-
+  
 
 </ul>
 
@@ -300,8 +300,11 @@
 		</footer>
 	</div>
 
-	<script type="text/javascript" src="assets/resources/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/resources/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script type="text/javascript" src="/blog/assets/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/blog/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/blog/assets/js/app.js"></script>
 </body>
 </html>
+
+
+
